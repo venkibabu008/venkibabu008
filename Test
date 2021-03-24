@@ -5,3 +5,25 @@ This is Venkatesh Babu from DLP Team
 I am testing DLP upload to validate if post is getting blocked. 
 
 Kindly ignore this upload and confirm if upload is successfull or not
+
+SGF_DLM_03:
+1.	DIM - Whitelisting/fine tuning policy is from DIM : Select all incidents from all status except Dismissed status of whitelisting / fine tuning policy  ( Channel=Network, Protocol=SMTP, Policy=whitelisting/finetuning policy) for the past 6 months and then calculate the average
+2.	EP - whitelisting/ fine tuning policy is from EP : Select all incidents from all status except Dismissed status of whitelisting / fine tuning policy ( Channel=Endpoint, Protocol=HTTP or HTTPS, Policy=whitelisting/finetuning policy)for the past 6 months and then calculate the average.
+3.	NPW - whitelisting/ fine tuning policy is from NPW : Select all incidents from all status except Dismissed status of whitelisting / fine tuning policy (( Channel=Network, Protocol=HTTP or HTTPS, Policy=whitelisting/ fine tuning policy) for the past 6 months and then calculate the average.
+4.	DIM - whitelisting/ fine tuning policy is from DIM : Select all incidents from all status except Dismissed status of all policies ( Channel=Network, Protocol=SMTP, Policy=ALL) for the past 6 months and then calculate the average.
+5.	EP - whitelisting/fine tuning policy is from EP : Select all incidents from all status except Dismissed status of all policies ( Channel=Endpoint, Protocol=HTTP or HTTPS, Policy=ALL) for the past 6 months and then calculate the average
+6.	NPW - whitelisting/ fine tuning policy is from NPW : Select all incidents from all status except Dismissed status of all policies ( Channel=Network, Protocol=HTTP or HTTPS, Policy=ALL) for the past 6 months and then calculate the average
+
+SGF_DLM_10:
+•	DIM – 
+o	 Select the incidents with status of L1-Reviewed, L2-Reviewed, QA-Reviewed, Escalated-LM, Resolved.
+o	Channel select: Network
+o	Protocol: SMTP
+o	Occurred Start Date: First day of the month.
+o	Occurred End Date: Last day of the month.
+•	EP – 
+o	Select the incidents with status of L1-Reviewed, L2-Reviewed, QA-Reviewed, Escalated-LM, Resolved.
+o	Channel select: Enpoint
+o	Protocol: CD/DVD, FTP, HTTP, HTTPS, PrintFax, USB
+o	Occurred Start Date: First day of the month.
+o	Occurred End Date: Last day of the month.
